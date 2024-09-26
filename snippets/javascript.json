@@ -1,0 +1,44 @@
+{
+    "Beautiful Comment": {
+      "prefix": "comment",
+      "body": [
+        "//==================================================",
+        "// ${1:Your starting comment here}",
+        "// ${2:Your ending comment here}",
+        "//=================================================="
+      ],
+      "description": "Insert a beautiful comment with customizable text."
+    },
+    "Function Documentation": {
+      "prefix": "funcdoc",
+      "body": [
+        "/**",
+        " * ${1:Function description}",
+        " *",
+        " * @param {${2:type}} ${3:parameter} - ${4:Description}",
+        " * @returns {${5:returnType}} ${6:Description}",
+        " */"
+      ],
+      "description": "Insert documentation for a function."
+    },
+    "Class Documentation": {
+      "prefix": "classdoc",
+      "body": [
+        "/**",
+        " * ${1:Class description}",
+        " *",
+        " * @class ${2:ClassName}",
+        " * @extends ${3:SuperClass}",
+        " */"
+      ],
+      "description": "Insert documentation for a class."
+    },
+    "TODO Comment": {
+      "prefix": "todo",
+      "body": [
+        "// TODO: ${1:Your task here}"
+      ],
+      "description": "Insert a TODO comment."
+    }
+  }
+  
